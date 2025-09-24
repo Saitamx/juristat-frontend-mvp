@@ -1,0 +1,79 @@
+{
+  "header": {
+    "title": "Dashboard de Análisis de Patentes Juristat",
+    "subtitle": "MVP para la prueba técnica de Juristat - Dashboard de análisis de patentes",
+    "author": "Autor",
+    "authorName": "Matías Troncoso",
+    "technologies": "Tecnologías",
+    "features": "Características",
+    "featuresList": [
+      "Dashboard interactivo y responsivo",
+      "Filtros avanzados y búsqueda",
+      "Visualizaciones con Recharts",
+      "Context API y hooks optimizados",
+      "Tests con Jest y Cypress"
+    ]
+  },
+  "dashboard": {
+    "title": "Dashboard Principal",
+    "subtitle": "Análisis en tiempo real de datos de patentes",
+    "showFilters": "Mostrar Filtros",
+    "hideFilters": "Ocultar Filtros",
+    "refresh": "Actualizar"
+  },
+  "stats": {
+    "totalCompanies": "Total de Empresas",
+    "avgAllowanceRate": "Tasa Promedio de Aprobación",
+    "avgPending": "Promedio Pendientes",
+    "avgDispositionTime": "Tiempo Promedio de Resolución",
+    "activeOrganizations": "Organizaciones Activas",
+    "successRate": "Tasa de Éxito",
+    "applicationsInQueue": "Aplicaciones en Cola",
+    "processingDuration": "Duración del Procesamiento",
+    "months": "meses"
+  },
+  "filters": {
+    "title": "Filtros Avanzados",
+    "subtitle": "Refina tu vista de datos con opciones de filtrado potentes",
+    "searchCompanies": "Buscar Empresas",
+    "searchPlaceholder": "Escribe el nombre de la empresa...",
+    "sortBy": "Ordenar Por",
+    "sortOrder": "Orden",
+    "ascending": "Ascendente",
+    "descending": "Descendente",
+    "expand": "Expandir",
+    "collapse": "Contraer",
+    "clearAll": "Limpiar Todo",
+    "sortOptions": {
+      "companyName": "Nombre de Empresa",
+      "pendingApplications": "Aplicaciones Pendientes",
+      "filedApplications": "Aplicaciones Presentadas",
+      "disposedApplications": "Aplicaciones Resueltas",
+      "allowanceRate": "Tasa de Aprobación",
+      "dispositionTime": "Tiempo de Resolución",
+      "officeActions": "Acciones de Oficina"
+    }
+  },
+  "table": {
+    "title": "Datos de Empresas",
+    "subtitle": "Análisis integral de aplicaciones de patentes",
+    "searchPlaceholder": "Buscar empresas...",
+    "noResults": "No se encontraron empresas",
+    "noResultsSubtitle": "Intenta ajustar tus criterios de búsqueda",
+    "columns": {
+      "company": "Empresa",
+      "pending": "Pendientes",
+      "filed": "Presentadas",
+      "disposed": "Resueltas",
+      "allowanceRate": "Tasa de Aprobación",
+      "dispositionTime": "Tiempo de Resolución",
+      "officeActions": "Acciones de Oficina"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "close": "Cerrar"
+  }
+}

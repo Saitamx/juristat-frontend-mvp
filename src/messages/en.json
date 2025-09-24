@@ -1,0 +1,79 @@
+{
+  "header": {
+    "title": "Juristat Patent Analytics Dashboard",
+    "subtitle": "MVP for Juristat technical test - Patent analysis dashboard",
+    "author": "Author",
+    "authorName": "Matías Troncoso",
+    "technologies": "Technologies",
+    "features": "Features",
+    "featuresList": [
+      "Interactive and responsive dashboard",
+      "Advanced filters and search",
+      "Recharts visualizations",
+      "Optimized Context API and hooks",
+      "Jest and Cypress tests"
+    ]
+  },
+  "dashboard": {
+    "title": "Main Dashboard",
+    "subtitle": "Real-time patent data analysis",
+    "showFilters": "Show Filters",
+    "hideFilters": "Hide Filters",
+    "refresh": "Refresh Data"
+  },
+  "stats": {
+    "totalCompanies": "Total Companies",
+    "avgAllowanceRate": "Avg Allowance Rate",
+    "avgPending": "Avg Pending",
+    "avgDispositionTime": "Avg Disposition Time",
+    "activeOrganizations": "Active Organizations",
+    "successRate": "Success Rate",
+    "applicationsInQueue": "Applications in Queue",
+    "processingDuration": "Processing Duration",
+    "months": "months"
+  },
+  "filters": {
+    "title": "Advanced Filters",
+    "subtitle": "Refine your data view with powerful filtering options",
+    "searchCompanies": "Search Companies",
+    "searchPlaceholder": "Type company name...",
+    "sortBy": "Sort By",
+    "sortOrder": "Order",
+    "ascending": "Ascending",
+    "descending": "Descending",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "clearAll": "Clear All",
+    "sortOptions": {
+      "companyName": "Company Name",
+      "pendingApplications": "Pending Applications",
+      "filedApplications": "Filed Applications",
+      "disposedApplications": "Disposed Applications",
+      "allowanceRate": "Allowance Rate",
+      "dispositionTime": "Disposition Time",
+      "officeActions": "Office Actions"
+    }
+  },
+  "table": {
+    "title": "Company Data",
+    "subtitle": "Comprehensive patent application analytics",
+    "searchPlaceholder": "Search companies...",
+    "noResults": "No companies found",
+    "noResultsSubtitle": "Try adjusting your search criteria",
+    "columns": {
+      "company": "Company",
+      "pending": "Pending",
+      "filed": "Filed",
+      "disposed": "Disposed",
+      "allowanceRate": "Allowance Rate",
+      "dispositionTime": "Disposition Time",
+      "officeActions": "Office Actions"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "close": "Close"
+  }
+}

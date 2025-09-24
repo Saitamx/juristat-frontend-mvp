@@ -1,4 +1,5 @@
 import React, { memo } from 'react';
+import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { 
@@ -25,13 +26,22 @@ export const Header = memo(() => {
       <div className="px-6 py-8">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between mb-6">
-            <div className="relative">
-              <div className="absolute -top-1 -right-1 w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center">
-                <span className="text-white text-xs font-bold">MVP</span>
+            <div className="flex items-center gap-4">
+              <div className="relative">
+                <Image
+                  src="/juristat_logo.jpg"
+                  alt="Juristat Logo"
+                  width={80}
+                  height={80}
+                  className="rounded-xl shadow-lg"
+                />
+                <div className="absolute -top-1 -right-1 w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center">
+                  <span className="text-white text-xs font-bold">MVP</span>
+                </div>
               </div>
             </div>
             
-            <div className="flex-1">
+            <div className="flex-1 text-center">
               <h1 className="text-4xl font-bold mb-2">
                 Juristat Patent Analytics Dashboard
               </h1>
